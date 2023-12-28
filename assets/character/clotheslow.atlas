@@ -1,0 +1,363 @@
+
+clotheslow.png
+size: 468,2036
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blank
+  rotate: false
+  xy: 2, 364
+  size: 160, 480
+  orig: 160, 480
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-001
+  rotate: true
+  xy: 2, 1266
+  size: 120, 200
+  orig: 120, 200
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-002
+  rotate: true
+  xy: 374, 758
+  size: 160, 80
+  orig: 160, 80
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-003
+  rotate: false
+  xy: 164, 582
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-004
+  rotate: false
+  xy: 2, 282
+  size: 160, 80
+  orig: 160, 80
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-005
+  rotate: false
+  xy: 326, 190
+  size: 120, 80
+  orig: 120, 80
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-006
+  rotate: true
+  xy: 2, 1710
+  size: 100, 220
+  orig: 100, 220
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-007
+  rotate: false
+  xy: 2, 200
+  size: 160, 80
+  orig: 160, 80
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-008
+  rotate: true
+  xy: 418, 1372
+  size: 100, 48
+  orig: 100, 48
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-009
+  rotate: true
+  xy: 204, 1160
+  size: 108, 196
+  orig: 108, 196
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-010
+  rotate: true
+  xy: 204, 1270
+  size: 104, 200
+  orig: 104, 200
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-011
+  rotate: true
+  xy: 212, 1376
+  size: 96, 204
+  orig: 96, 204
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-012
+  rotate: true
+  xy: 382, 920
+  size: 104, 84
+  orig: 104, 84
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-013
+  rotate: true
+  xy: 200, 1058
+  size: 100, 188
+  orig: 100, 188
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-014
+  rotate: true
+  xy: 238, 30
+  size: 108, 56
+  orig: 108, 56
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-015
+  rotate: true
+  xy: 406, 1258
+  size: 112, 56
+  orig: 112, 56
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-016
+  rotate: true
+  xy: 192, 850
+  size: 104, 180
+  orig: 104, 180
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-017
+  rotate: true
+  xy: 390, 1026
+  size: 116, 72
+  orig: 116, 72
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-018
+  rotate: false
+  xy: 120, 66
+  size: 116, 72
+  orig: 116, 72
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-019
+  rotate: false
+  xy: 164, 140
+  size: 144, 116
+  orig: 144, 116
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-020
+  rotate: true
+  xy: 228, 1930
+  size: 104, 224
+  orig: 104, 224
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-021
+  rotate: true
+  xy: 2, 1156
+  size: 108, 196
+  orig: 108, 196
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-022
+  rotate: true
+  xy: 2, 1054
+  size: 100, 188
+  orig: 100, 188
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-023
+  rotate: false
+  xy: 116, 8
+  size: 108, 56
+  orig: 108, 56
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-024
+  rotate: false
+  xy: 2, 60
+  size: 112, 56
+  orig: 112, 56
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-025
+  rotate: true
+  xy: 402, 1144
+  size: 112, 64
+  orig: 112, 64
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-026
+  rotate: false
+  xy: 2, 2
+  size: 108, 56
+  orig: 108, 56
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-027
+  rotate: true
+  xy: 192, 956
+  size: 100, 188
+  orig: 100, 188
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-028
+  rotate: true
+  xy: 2, 952
+  size: 100, 188
+  orig: 100, 188
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-029
+  rotate: true
+  xy: 224, 1702
+  size: 100, 220
+  orig: 100, 220
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-030
+  rotate: false
+  xy: 296, 62
+  size: 108, 56
+  orig: 108, 56
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-031
+  rotate: true
+  xy: 228, 1804
+  size: 124, 220
+  orig: 124, 220
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-032
+  rotate: false
+  xy: 326, 518
+  size: 140, 104
+  orig: 140, 104
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-033
+  rotate: true
+  xy: 2, 1388
+  size: 108, 208
+  orig: 108, 208
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-034
+  rotate: false
+  xy: 326, 342
+  size: 128, 68
+  orig: 128, 68
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-035
+  rotate: true
+  xy: 2, 1926
+  size: 108, 224
+  orig: 108, 224
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-036
+  rotate: false
+  xy: 354, 624
+  size: 112, 132
+  orig: 112, 132
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-037
+  rotate: true
+  xy: 2, 1608
+  size: 100, 220
+  orig: 100, 220
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-038
+  rotate: true
+  xy: 2, 1812
+  size: 112, 220
+  orig: 112, 220
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-039
+  rotate: false
+  xy: 2, 118
+  size: 116, 80
+  orig: 116, 80
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-040
+  rotate: true
+  xy: 180, 744
+  size: 104, 172
+  orig: 104, 172
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-041
+  rotate: true
+  xy: 216, 1474
+  size: 104, 212
+  orig: 104, 212
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-042
+  rotate: false
+  xy: 326, 272
+  size: 128, 68
+  orig: 128, 68
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-043
+  rotate: true
+  xy: 2, 846
+  size: 104, 176
+  orig: 104, 176
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-044
+  rotate: true
+  xy: 326, 412
+  size: 104, 136
+  orig: 104, 136
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-045
+  rotate: false
+  xy: 310, 120
+  size: 120, 68
+  orig: 120, 68
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-046
+  rotate: true
+  xy: 2, 1498
+  size: 108, 212
+  orig: 108, 212
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-047
+  rotate: true
+  xy: 224, 1580
+  size: 120, 216
+  orig: 120, 216
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-048
+  rotate: false
+  xy: 164, 420
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-049
+  rotate: false
+  xy: 164, 258
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+clotheslow/clotheslow-050
+  rotate: true
+  xy: 406, 10
+  size: 108, 56
+  orig: 108, 56
+  offset: 0, 0
+  index: -1

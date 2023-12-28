@@ -1,0 +1,454 @@
+
+eyebrow.png
+size: 490,1604
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blank
+  rotate: true
+  xy: 2, 2
+  size: 160, 480
+  orig: 160, 480
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-001
+  rotate: false
+  xy: 2, 1514
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-002
+  rotate: false
+  xy: 124, 1514
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-003
+  rotate: false
+  xy: 246, 1514
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-004
+  rotate: false
+  xy: 368, 1514
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-005
+  rotate: false
+  xy: 2, 1424
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-006
+  rotate: false
+  xy: 124, 1424
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-007
+  rotate: false
+  xy: 246, 1424
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-008
+  rotate: false
+  xy: 368, 1424
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-009
+  rotate: false
+  xy: 2, 1334
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-010
+  rotate: false
+  xy: 124, 1334
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-011
+  rotate: false
+  xy: 246, 1334
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-012
+  rotate: false
+  xy: 368, 1334
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-013
+  rotate: false
+  xy: 2, 1244
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-014
+  rotate: false
+  xy: 124, 1244
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-015
+  rotate: false
+  xy: 246, 1244
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-016
+  rotate: false
+  xy: 368, 1244
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-017
+  rotate: false
+  xy: 2, 1154
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-018
+  rotate: false
+  xy: 124, 1154
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-019
+  rotate: false
+  xy: 246, 1154
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-020
+  rotate: false
+  xy: 368, 1154
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-021
+  rotate: false
+  xy: 2, 1064
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-022
+  rotate: false
+  xy: 124, 1064
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-023
+  rotate: false
+  xy: 246, 1064
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-024
+  rotate: false
+  xy: 368, 1064
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-025
+  rotate: false
+  xy: 2, 974
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-026
+  rotate: false
+  xy: 124, 974
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-027
+  rotate: false
+  xy: 246, 974
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-028
+  rotate: false
+  xy: 368, 974
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-029
+  rotate: false
+  xy: 2, 884
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-030
+  rotate: false
+  xy: 124, 884
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-031
+  rotate: false
+  xy: 246, 884
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-032
+  rotate: false
+  xy: 368, 884
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-033
+  rotate: false
+  xy: 2, 794
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-034
+  rotate: false
+  xy: 124, 794
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-035
+  rotate: false
+  xy: 246, 794
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-036
+  rotate: false
+  xy: 368, 794
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-037
+  rotate: false
+  xy: 2, 704
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-038
+  rotate: false
+  xy: 124, 704
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-039
+  rotate: false
+  xy: 246, 704
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-040
+  rotate: false
+  xy: 368, 704
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-041
+  rotate: false
+  xy: 2, 614
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-042
+  rotate: false
+  xy: 124, 614
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-043
+  rotate: false
+  xy: 246, 614
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-044
+  rotate: false
+  xy: 368, 614
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-045
+  rotate: false
+  xy: 2, 524
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-046
+  rotate: false
+  xy: 124, 524
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-047
+  rotate: false
+  xy: 246, 524
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-048
+  rotate: false
+  xy: 368, 524
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-049
+  rotate: false
+  xy: 2, 434
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-050
+  rotate: false
+  xy: 124, 434
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-051
+  rotate: false
+  xy: 246, 434
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-052
+  rotate: false
+  xy: 368, 434
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-053
+  rotate: false
+  xy: 2, 344
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-054
+  rotate: false
+  xy: 124, 344
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-055
+  rotate: false
+  xy: 246, 344
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-056
+  rotate: false
+  xy: 368, 344
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-057
+  rotate: false
+  xy: 2, 254
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-058
+  rotate: false
+  xy: 124, 254
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-059
+  rotate: false
+  xy: 246, 254
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-060
+  rotate: false
+  xy: 368, 254
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-061
+  rotate: false
+  xy: 2, 164
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-062
+  rotate: false
+  xy: 124, 164
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+eyebrow/eyebrow-063
+  rotate: false
+  xy: 246, 164
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1

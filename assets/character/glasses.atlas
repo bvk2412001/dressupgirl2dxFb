@@ -1,0 +1,307 @@
+
+glasses.png
+size: 340,1442
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blank
+  rotate: false
+  xy: 176, 960
+  size: 160, 480
+  orig: 160, 480
+  offset: 0, 0
+  index: -1
+glasses/glasses-001
+  rotate: false
+  xy: 2, 1092
+  size: 160, 80
+  orig: 160, 80
+  offset: 0, 0
+  index: -1
+glasses/glasses-002
+  rotate: false
+  xy: 128, 340
+  size: 124, 60
+  orig: 124, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-003
+  rotate: false
+  xy: 136, 588
+  size: 128, 60
+  orig: 128, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-004
+  rotate: false
+  xy: 136, 898
+  size: 132, 60
+  orig: 132, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-005
+  rotate: false
+  xy: 2, 564
+  size: 128, 60
+  orig: 128, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-006
+  rotate: false
+  xy: 2, 874
+  size: 132, 60
+  orig: 132, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-007
+  rotate: true
+  xy: 270, 826
+  size: 132, 60
+  orig: 132, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-008
+  rotate: false
+  xy: 136, 836
+  size: 132, 60
+  orig: 132, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-009
+  rotate: false
+  xy: 246, 32
+  size: 92, 60
+  orig: 92, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-010
+  rotate: false
+  xy: 112, 2
+  size: 92, 60
+  orig: 92, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-011
+  rotate: false
+  xy: 2, 28
+  size: 108, 60
+  orig: 108, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-012
+  rotate: false
+  xy: 2, 812
+  size: 132, 60
+  orig: 132, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-013
+  rotate: false
+  xy: 132, 526
+  size: 128, 60
+  orig: 128, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-014
+  rotate: false
+  xy: 2, 502
+  size: 128, 60
+  orig: 128, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-015
+  rotate: false
+  xy: 132, 464
+  size: 128, 60
+  orig: 128, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-016
+  rotate: false
+  xy: 128, 278
+  size: 124, 60
+  orig: 124, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-017
+  rotate: true
+  xy: 262, 448
+  size: 108, 76
+  orig: 108, 76
+  offset: 0, 0
+  index: -1
+glasses/glasses-018
+  rotate: false
+  xy: 2, 440
+  size: 128, 60
+  orig: 128, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-019
+  rotate: false
+  xy: 2, 276
+  size: 124, 60
+  orig: 124, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-020
+  rotate: true
+  xy: 254, 216
+  size: 120, 60
+  orig: 120, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-021
+  rotate: false
+  xy: 2, 936
+  size: 132, 68
+  orig: 132, 68
+  offset: 0, 0
+  index: -1
+glasses/glasses-022
+  rotate: false
+  xy: 136, 774
+  size: 132, 60
+  orig: 132, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-023
+  rotate: false
+  xy: 2, 750
+  size: 132, 60
+  orig: 132, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-024
+  rotate: false
+  xy: 132, 402
+  size: 128, 60
+  orig: 128, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-025
+  rotate: true
+  xy: 270, 692
+  size: 132, 60
+  orig: 132, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-026
+  rotate: true
+  xy: 262, 338
+  size: 108, 76
+  orig: 108, 76
+  offset: 0, 0
+  index: -1
+glasses/glasses-027
+  rotate: false
+  xy: 136, 712
+  size: 132, 60
+  orig: 132, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-028
+  rotate: false
+  xy: 2, 1006
+  size: 132, 84
+  orig: 132, 84
+  offset: 0, 0
+  index: -1
+glasses/glasses-029
+  rotate: false
+  xy: 2, 214
+  size: 120, 60
+  orig: 120, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-030
+  rotate: false
+  xy: 2, 688
+  size: 132, 60
+  orig: 132, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-031
+  rotate: false
+  xy: 136, 650
+  size: 132, 60
+  orig: 132, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-032
+  rotate: false
+  xy: 2, 152
+  size: 120, 60
+  orig: 120, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-033
+  rotate: true
+  xy: 250, 94
+  size: 120, 60
+  orig: 120, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-034
+  rotate: false
+  xy: 124, 126
+  size: 120, 60
+  orig: 120, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-035
+  rotate: false
+  xy: 2, 90
+  size: 120, 60
+  orig: 120, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-036
+  rotate: false
+  xy: 124, 64
+  size: 120, 60
+  orig: 120, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-037
+  rotate: false
+  xy: 128, 188
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+glasses/glasses-038
+  rotate: false
+  xy: 2, 1308
+  size: 172, 132
+  orig: 172, 132
+  offset: 0, 0
+  index: -1
+glasses/glasses-039
+  rotate: false
+  xy: 2, 1174
+  size: 172, 132
+  orig: 172, 132
+  offset: 0, 0
+  index: -1
+glasses/glasses-040
+  rotate: false
+  xy: 2, 338
+  size: 124, 100
+  orig: 124, 100
+  offset: 0, 0
+  index: -1
+glasses/glasses-041
+  rotate: false
+  xy: 2, 626
+  size: 132, 60
+  orig: 132, 60
+  offset: 0, 0
+  index: -1
+glasses/glasses-042
+  rotate: true
+  xy: 270, 558
+  size: 132, 60
+  orig: 132, 60
+  offset: 0, 0
+  index: -1

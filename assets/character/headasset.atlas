@@ -1,0 +1,377 @@
+
+headasset.png
+size: 1900,606
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blank
+  rotate: false
+  xy: 2, 124
+  size: 160, 480
+  orig: 160, 480
+  offset: 0, 0
+  index: -1
+headasset/headasset-001
+  rotate: true
+  xy: 1024, 404
+  size: 200, 160
+  orig: 200, 160
+  offset: 0, 0
+  index: -1
+headasset/headasset-001-shop
+  rotate: true
+  xy: 532, 130
+  size: 196, 158
+  orig: 196, 158
+  offset: 0, 0
+  index: -1
+headasset/headasset-002
+  rotate: true
+  xy: 1558, 282
+  size: 160, 80
+  orig: 160, 80
+  offset: 0, 0
+  index: -1
+headasset/headasset-002-shop
+  rotate: true
+  xy: 740, 366
+  size: 238, 154
+  orig: 238, 154
+  offset: 0, 0
+  index: -1
+headasset/headasset-003
+  rotate: false
+  xy: 2, 2
+  size: 200, 120
+  orig: 200, 120
+  offset: 0, 0
+  index: -1
+headasset/headasset-004
+  rotate: true
+  xy: 370, 4
+  size: 120, 60
+  orig: 120, 60
+  offset: 0, 0
+  index: -1
+headasset/headasset-005
+  rotate: true
+  xy: 1568, 120
+  size: 160, 80
+  orig: 160, 80
+  offset: 0, 0
+  index: -1
+headasset/headasset-006
+  rotate: true
+  xy: 1332, 242
+  size: 180, 92
+  orig: 180, 92
+  offset: 0, 0
+  index: -1
+headasset/headasset-007
+  rotate: true
+  xy: 1640, 282
+  size: 160, 80
+  orig: 160, 80
+  offset: 0, 0
+  index: -1
+headasset/headasset-008
+  rotate: true
+  xy: 1268, 424
+  size: 180, 100
+  orig: 180, 100
+  offset: 0, 0
+  index: -1
+headasset/headasset-009
+  rotate: false
+  xy: 1530, 444
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+headasset/headasset-010
+  rotate: true
+  xy: 1034, 4
+  size: 176, 148
+  orig: 176, 148
+  offset: 0, 0
+  index: -1
+headasset/headasset-011
+  rotate: false
+  xy: 798, 18
+  size: 116, 116
+  orig: 116, 116
+  offset: 0, 0
+  index: -1
+headasset/headasset-012
+  rotate: false
+  xy: 916, 18
+  size: 116, 116
+  orig: 116, 116
+  offset: 0, 0
+  index: -1
+headasset/headasset-013
+  rotate: true
+  xy: 1786, 402
+  size: 96, 108
+  orig: 96, 108
+  offset: 0, 0
+  index: -1
+headasset/headasset-014
+  rotate: true
+  xy: 1788, 248
+  size: 152, 100
+  orig: 152, 100
+  offset: 0, 0
+  index: -1
+headasset/headasset-015
+  rotate: true
+  xy: 786, 136
+  size: 228, 200
+  orig: 228, 200
+  offset: 0, 0
+  index: -1
+headasset/headasset-016
+  rotate: true
+  xy: 1722, 358
+  size: 84, 60
+  orig: 84, 60
+  offset: 0, 0
+  index: -1
+headasset/headasset-017
+  rotate: true
+  xy: 476, 328
+  size: 276, 200
+  orig: 276, 200
+  offset: 0, 0
+  index: -1
+headasset/headasset-018
+  rotate: false
+  xy: 164, 126
+  size: 168, 188
+  orig: 168, 188
+  offset: 0, 0
+  index: -1
+headasset/headasset-019
+  rotate: false
+  xy: 988, 182
+  size: 192, 204
+  orig: 192, 204
+  offset: 0, 0
+  index: -1
+headasset/headasset-020
+  rotate: false
+  xy: 164, 316
+  size: 200, 288
+  orig: 200, 288
+  offset: 0, 0
+  index: -1
+headasset/headasset-021
+  rotate: true
+  xy: 1184, 8
+  size: 192, 88
+  orig: 192, 88
+  offset: 0, 0
+  index: -1
+headasset/headasset-022
+  rotate: false
+  xy: 494, 4
+  size: 204, 124
+  orig: 204, 124
+  offset: 0, 0
+  index: -1
+headasset/headasset-023
+  rotate: false
+  xy: 1722, 296
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+headasset/headasset-024
+  rotate: true
+  xy: 1370, 424
+  size: 180, 88
+  orig: 180, 88
+  offset: 0, 0
+  index: -1
+headasset/headasset-025
+  rotate: false
+  xy: 1466, 14
+  size: 164, 60
+  orig: 164, 60
+  offset: 0, 0
+  index: -1
+headasset/headasset-026
+  rotate: true
+  xy: 692, 134
+  size: 220, 92
+  orig: 220, 92
+  offset: 0, 0
+  index: -1
+headasset/headasset-027
+  rotate: true
+  xy: 1384, 60
+  size: 180, 80
+  orig: 180, 80
+  offset: 0, 0
+  index: -1
+headasset/headasset-028
+  rotate: true
+  xy: 1460, 432
+  size: 172, 68
+  orig: 172, 68
+  offset: 0, 0
+  index: -1
+headasset/headasset-029
+  rotate: true
+  xy: 1692, 444
+  size: 160, 60
+  orig: 160, 60
+  offset: 0, 0
+  index: -1
+headasset/headasset-030
+  rotate: false
+  xy: 204, 4
+  size: 164, 120
+  orig: 164, 120
+  offset: 0, 0
+  index: -1
+headasset/headasset-031
+  rotate: true
+  xy: 1186, 404
+  size: 200, 80
+  orig: 200, 80
+  offset: 0, 0
+  index: -1
+headasset/headasset-032
+  rotate: true
+  xy: 1182, 202
+  size: 200, 148
+  orig: 200, 148
+  offset: 0, 0
+  index: -1
+headasset/headasset-033
+  rotate: true
+  xy: 1466, 76
+  size: 168, 100
+  orig: 168, 100
+  offset: 0, 0
+  index: -1
+headasset/headasset-034
+  rotate: true
+  xy: 1496, 266
+  size: 164, 60
+  orig: 164, 60
+  offset: 0, 0
+  index: -1
+headasset/headasset-035
+  rotate: true
+  xy: 962, 388
+  size: 216, 60
+  orig: 216, 60
+  offset: 0, 0
+  index: -1
+headasset/headasset-036
+  rotate: true
+  xy: 1274, 20
+  size: 180, 108
+  orig: 180, 108
+  offset: 0, 0
+  index: -1
+headasset/headasset-037
+  rotate: true
+  xy: 462, 130
+  size: 184, 68
+  orig: 184, 68
+  offset: 0, 0
+  index: -1
+headasset/headasset-038
+  rotate: true
+  xy: 1426, 246
+  size: 176, 68
+  orig: 176, 68
+  offset: 0, 0
+  index: -1
+headasset/headasset-039
+  rotate: true
+  xy: 700, 4
+  size: 128, 96
+  orig: 128, 96
+  offset: 0, 0
+  index: -1
+headasset/headasset-040
+  rotate: true
+  xy: 1650, 128
+  size: 152, 136
+  orig: 152, 136
+  offset: 0, 0
+  index: -1
+headasset/headasset-041
+  rotate: false
+  xy: 1632, 6
+  size: 152, 112
+  orig: 152, 112
+  offset: 0, 0
+  index: -1
+headasset/headasset-042
+  rotate: true
+  xy: 678, 356
+  size: 248, 60
+  orig: 248, 60
+  offset: 0, 0
+  index: -1
+headasset/headasset-043
+  rotate: true
+  xy: 432, 4
+  size: 120, 60
+  orig: 120, 60
+  offset: 0, 0
+  index: -1
+headasset/headasset-044
+  rotate: true
+  xy: 1788, 98
+  size: 148, 88
+  orig: 148, 88
+  offset: 0, 0
+  index: -1
+headasset/headasset-045
+  rotate: true
+  xy: 366, 316
+  size: 288, 108
+  orig: 288, 108
+  offset: 0, 0
+  index: -1
+headasset/headasset-046
+  rotate: true
+  xy: 400, 126
+  size: 188, 60
+  orig: 188, 60
+  offset: 0, 0
+  index: -1
+headasset/headasset-047
+  rotate: true
+  xy: 334, 126
+  size: 188, 64
+  orig: 188, 64
+  offset: 0, 0
+  index: -1
+headasset/headasset-048
+  rotate: false
+  xy: 1786, 20
+  size: 60, 76
+  orig: 60, 76
+  offset: 0, 0
+  index: -1
+headasset/headasset-049
+  rotate: true
+  xy: 896, 388
+  size: 216, 64
+  orig: 216, 64
+  offset: 0, 0
+  index: -1
+headasset/headasset-050
+  rotate: false
+  xy: 1786, 500
+  size: 112, 104
+  orig: 112, 104
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,377 @@
+
+shoe.png
+size: 2492,195
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blank
+  rotate: true
+  xy: 2, 33
+  size: 160, 480
+  orig: 160, 480
+  offset: 0, 0
+  index: -1
+shoe/shoe-001
+  rotate: true
+  xy: 590, 73
+  size: 120, 80
+  orig: 120, 80
+  offset: 0, 0
+  index: -1
+shoe/shoe-001-shop
+  rotate: false
+  xy: 900, 3
+  size: 93, 68
+  orig: 93, 68
+  offset: 0, 0
+  index: -1
+shoe/shoe-002
+  rotate: true
+  xy: 1285, 3
+  size: 80, 60
+  orig: 80, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-002-shop
+  rotate: false
+  xy: 484, 2
+  size: 104, 69
+  orig: 104, 69
+  offset: 0, 0
+  index: -1
+shoe/shoe-003
+  rotate: true
+  xy: 918, 77
+  size: 116, 84
+  orig: 116, 84
+  offset: 0, 0
+  index: -1
+shoe/shoe-004
+  rotate: true
+  xy: 672, 73
+  size: 120, 80
+  orig: 120, 80
+  offset: 0, 0
+  index: -1
+shoe/shoe-005
+  rotate: true
+  xy: 1347, 3
+  size: 80, 60
+  orig: 80, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-006
+  rotate: true
+  xy: 1409, 3
+  size: 80, 60
+  orig: 80, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-007
+  rotate: true
+  xy: 1471, 3
+  size: 80, 60
+  orig: 80, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-008
+  rotate: true
+  xy: 1533, 3
+  size: 80, 60
+  orig: 80, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-009
+  rotate: true
+  xy: 1748, 89
+  size: 104, 60
+  orig: 104, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-010
+  rotate: true
+  xy: 754, 73
+  size: 120, 80
+  orig: 120, 80
+  offset: 0, 0
+  index: -1
+shoe/shoe-011
+  rotate: false
+  xy: 1376, 85
+  size: 88, 108
+  orig: 88, 108
+  offset: 0, 0
+  index: -1
+shoe/shoe-012
+  rotate: false
+  xy: 590, 3
+  size: 104, 68
+  orig: 104, 68
+  offset: 0, 0
+  index: -1
+shoe/shoe-013
+  rotate: true
+  xy: 1865, 3
+  size: 92, 60
+  orig: 92, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-014
+  rotate: true
+  xy: 1810, 97
+  size: 96, 60
+  orig: 96, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-015
+  rotate: true
+  xy: 2244, 113
+  size: 80, 60
+  orig: 80, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-016
+  rotate: true
+  xy: 2051, 19
+  size: 84, 60
+  orig: 84, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-017
+  rotate: true
+  xy: 2299, 31
+  size: 80, 60
+  orig: 80, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-018
+  rotate: false
+  xy: 1654, 89
+  size: 92, 104
+  orig: 92, 104
+  offset: 0, 0
+  index: -1
+shoe/shoe-019
+  rotate: true
+  xy: 2306, 113
+  size: 80, 60
+  orig: 80, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-020
+  rotate: true
+  xy: 1466, 85
+  size: 108, 88
+  orig: 108, 88
+  offset: 0, 0
+  index: -1
+shoe/shoe-021
+  rotate: true
+  xy: 1872, 105
+  size: 88, 60
+  orig: 88, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-022
+  rotate: true
+  xy: 2058, 109
+  size: 84, 60
+  orig: 84, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-023
+  rotate: true
+  xy: 2113, 23
+  size: 84, 60
+  orig: 84, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-024
+  rotate: true
+  xy: 1927, 15
+  size: 88, 60
+  orig: 88, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-025
+  rotate: true
+  xy: 2120, 109
+  size: 84, 60
+  orig: 84, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-026
+  rotate: true
+  xy: 2175, 23
+  size: 84, 60
+  orig: 84, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-027
+  rotate: true
+  xy: 2182, 109
+  size: 84, 60
+  orig: 84, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-028
+  rotate: true
+  xy: 1799, 3
+  size: 84, 64
+  orig: 84, 64
+  offset: 0, 0
+  index: -1
+shoe/shoe-029
+  rotate: false
+  xy: 1093, 11
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+shoe/shoe-030
+  rotate: false
+  xy: 1183, 3
+  size: 100, 76
+  orig: 100, 76
+  offset: 0, 0
+  index: -1
+shoe/shoe-031
+  rotate: true
+  xy: 2361, 31
+  size: 80, 60
+  orig: 80, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-032
+  rotate: false
+  xy: 696, 3
+  size: 100, 68
+  orig: 100, 68
+  offset: 0, 0
+  index: -1
+shoe/shoe-033
+  rotate: true
+  xy: 1934, 105
+  size: 88, 60
+  orig: 88, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-034
+  rotate: false
+  xy: 1556, 89
+  size: 96, 104
+  orig: 96, 104
+  offset: 0, 0
+  index: -1
+shoe/shoe-035
+  rotate: false
+  xy: 1701, 3
+  size: 96, 84
+  orig: 96, 84
+  offset: 0, 0
+  index: -1
+shoe/shoe-036
+  rotate: true
+  xy: 2368, 113
+  size: 80, 60
+  orig: 80, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-037
+  rotate: true
+  xy: 1989, 15
+  size: 88, 60
+  orig: 88, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-038
+  rotate: true
+  xy: 2423, 35
+  size: 76, 60
+  orig: 76, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-039
+  rotate: true
+  xy: 2237, 23
+  size: 84, 60
+  orig: 84, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-040
+  rotate: true
+  xy: 836, 73
+  size: 120, 80
+  orig: 120, 80
+  offset: 0, 0
+  index: -1
+shoe/shoe-041
+  rotate: true
+  xy: 1004, 77
+  size: 116, 84
+  orig: 116, 84
+  offset: 0, 0
+  index: -1
+shoe/shoe-042
+  rotate: true
+  xy: 1090, 77
+  size: 116, 84
+  orig: 116, 84
+  offset: 0, 0
+  index: -1
+shoe/shoe-043
+  rotate: true
+  xy: 2430, 113
+  size: 80, 60
+  orig: 80, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-044
+  rotate: false
+  xy: 798, 3
+  size: 100, 68
+  orig: 100, 68
+  offset: 0, 0
+  index: -1
+shoe/shoe-045
+  rotate: false
+  xy: 1176, 81
+  size: 100, 112
+  orig: 100, 112
+  offset: 0, 0
+  index: -1
+shoe/shoe-046
+  rotate: false
+  xy: 995, 11
+  size: 96, 64
+  orig: 96, 64
+  offset: 0, 0
+  index: -1
+shoe/shoe-047
+  rotate: false
+  xy: 1595, 3
+  size: 104, 84
+  orig: 104, 84
+  offset: 0, 0
+  index: -1
+shoe/shoe-048
+  rotate: true
+  xy: 1996, 105
+  size: 88, 60
+  orig: 88, 60
+  offset: 0, 0
+  index: -1
+shoe/shoe-049
+  rotate: true
+  xy: 1278, 85
+  size: 108, 96
+  orig: 108, 96
+  offset: 0, 0
+  index: -1
+shoe/shoe-050
+  rotate: false
+  xy: 484, 73
+  size: 104, 120
+  orig: 104, 120
+  offset: 0, 0
+  index: -1
