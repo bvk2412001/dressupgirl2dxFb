@@ -154,7 +154,7 @@ export default class Chat extends cc.Component {
 
         }, this)
 
-        SocketRun.getInstance().send(ContantEventName.client_get_list_chat, { locale: Context.getInstance().user.locale, limit: 10 })
+        SocketRun.getInstance().send(ContantEventName.client_get_list_chat, { locale: Context.getInstance().user.locale, limit: 20 })
     }
 
     btnEditName() {
@@ -266,7 +266,7 @@ export default class Chat extends cc.Component {
             if (data.sender == Context.getInstance().user._id) {
                 if (data.message.type == 0) {
                     newMess = cc.instantiate(this.messageUser)
-                    newMess.getComponent(MessageChat).message.string = Tools.filterBadWord(Tools.wrapText(data.message.data, 20))
+                    newMess.getComponent(MessageChat).message.string = Tools.filterBadWord(Tools.wrapText(data.message.data, 30))
                     newMess.getChildByName("chatmessagebg2").color = StaticData.colorChatUser
                 }
                 else {
@@ -278,7 +278,7 @@ export default class Chat extends cc.Component {
             else {
                 if (data.message.type == 0) {
                     newMess = cc.instantiate(this.messagePlayer)
-                    newMess.getComponent(MessageChat).message.string = Tools.filterBadWord(Tools.wrapText(data.message.data, 20))
+                    newMess.getComponent(MessageChat).message.string = Tools.filterBadWord(Tools.wrapText(data.message.data, 30))
                     newMess.getChildByName("chatmessagebg").color = StaticData.colorChatOther
                 }
                 else {
@@ -294,7 +294,7 @@ export default class Chat extends cc.Component {
         else {
             if (data.message.type == 0) {
                 newMess = cc.instantiate(this.messagePlayer)
-                newMess.getComponent(MessageChat).message.string = Tools.filterBadWord(Tools.wrapText(data.message.data, 20))
+                newMess.getComponent(MessageChat).message.string = Tools.filterBadWord(Tools.wrapText(data.message.data, 30))
                 newMess.getChildByName("chatmessagebg").color = StaticData.colorChatOther
             }
             else {
@@ -315,7 +315,21 @@ export default class Chat extends cc.Component {
         }
 
         if (data.message.type == 1) {
-            Tools.addDoll(newMess.getComponent(MessageChat).doll, 0.8, data.message.data)
+            let callback = () => {
+                console.log(Context.getInstance().indexLoadItem, "khoa")
+                if (Context.getInstance().indexLoadItem == 19) {
+                    newMess.getComponent(MessageChat).loading.active = false
+                    Tools.addDoll(newMess.getComponent(MessageChat).doll, 0.8, data.message.data)
+                }
+                else{
+                    this.scheduleOnce(()=>{
+                        callback()
+                    },0.1)
+                }
+            }
+
+            callback()
+            
         }
     }
 
@@ -371,7 +385,21 @@ export default class Chat extends cc.Component {
                         this.listPhotoChat.content.addChild(newItemm)
                         newItemm.getComponent(ItemGallery).delete.active = false
                         newItemm.getComponent(ItemGallery).fb.active = false
-                        Tools.addDoll(newItemm.getComponent(ItemGallery).bg, 0.5, list[i])
+
+                        let callback = () => {
+                            if (Context.getInstance().indexLoadItem == 19) {
+                                newItemm.getComponent(ItemGallery).loading.active = false
+                                Tools.addDoll(newItemm.getComponent(ItemGallery).bg, 0.5, list[i])
+                            }
+                            else{
+                                this.scheduleOnce(()=>{
+                                    callback()
+                                },0.1)
+                            }
+                        }
+
+                        callback()
+                        
                         newItemm.getComponent(ItemGallery).setup(() => {
                             console.log(StaticData.timeLockImage)
                             Context.getInstance().setTimeLockImage(30)

@@ -45,6 +45,8 @@ export default class Loading extends cc.Component {
     @property(cc.Node)
     bg: cc.Node
     protected onLoad(): void {
+        StaticData.listPrefabItemDoll = new Array<cc.Prefab>(20)
+        console.log(StaticData.listPrefabItemDoll)
         fireBase.instance.LogEvent("loading" + Config.keyFirebase);
         if (this.debug == false) {
             console.log = function () { };

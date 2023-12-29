@@ -20,6 +20,10 @@ export default class ItemGallery extends cc.Component {
 
     @property(cc.Node)
     fb: cc.Node
+
+    @property(cc.Node)
+    loading: cc.Node
+
     callbackOnClick
     callbackDelete
     callbackShareFB
@@ -29,7 +33,7 @@ export default class ItemGallery extends cc.Component {
         this.callbackShareFB = callbackShareFB
     }
 
-
+    
 
 
     onClick() {

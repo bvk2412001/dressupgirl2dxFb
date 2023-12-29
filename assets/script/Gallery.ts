@@ -47,7 +47,7 @@ export default class Gallery extends cc.Component {
     timeCountDown: cc.Label
 
     protected onLoad(): void {
-        
+
     }
 
 
@@ -79,7 +79,6 @@ export default class Gallery extends cc.Component {
     }
 
     setUpGallery() {
-
         this.listGallery.content.destroyAllChildren()
 
         let list = []
@@ -88,173 +87,142 @@ export default class Gallery extends cc.Component {
         }
 
         this.titleGallery.string = "(" + list.length + ")"
-        let index = 8
-        if (list.length > 8) {
+        let index = 4
+        if (list.length > 4) {
             index = list.length
         }
-        console.log(index)
         for (let i = 0; i < index; i++) {
-            console.log("khoa", i, list.length)
             if (i < list.length) {
-                console.log(this.itemGallery)
                 let newItemm = cc.instantiate(this.itemGallery)
 
                 this.listGallery.content.addChild(newItemm)
-                // if (Web.ins) {
-                //     newItemm = instantiate(StaticData.itemGallery)
-                //     this.listGallery.content.addChild(newItemm)
-                //     Tools.addDoll(newItemm.getComponent(ItemGallery).bg, 0.5, list[i])
-
-                // }
 
                 if (Mobile.ins) {
-                    Tools.addDoll(newItemm.getComponent(ItemGallery).bg, 0.65, list[i])
-                }
+                    let callback = () => {
+                        if (Context.getInstance().indexLoadItem == 19) {
+                            newItemm.getComponent(ItemGallery).loading.active = false
+                            Tools.addDoll(newItemm.getComponent(ItemGallery).bg, 0.65, list[i])
+                            if (Mobile.ins && Mobile.ins?.indexEdit == i) {
+                                newItemm.getComponent(ItemGallery).select.active = true
+                            }
+                            newItemm.getComponent(ItemGallery).setup(() => {
 
+                                if (Mobile.ins) {
+                                    Mobile.ins.offZoomItem()
+                                    Mobile.ins.indexEdit = i
+                                    this.listGallery.content.children.forEach(child => {
+                                        child.getComponent(ItemGallery).select.active = false
+                                    })
+                                    newItemm.getComponent(ItemGallery).select.active = true
 
-                if (Mobile.ins && Mobile.ins?.indexEdit == i) {
-                    newItemm.getComponent(ItemGallery).select.active = true
-                }
-                // if (Web.ins?.indexEdit == i) {
-                //     newItemm.getComponent(ItemGallery).select.active = true
-                // }
-                newItemm.getComponent(ItemGallery).setup(() => {
-                    // if (Web.ins) {
-                    //     Web.ins.offZoomItem()
-                    //     Web.ins.indexEdit = i
-                    //     this.listGallery.content.children.forEach(child => {
-                    //         child.getComponent(ItemGallery).select.active = false
-                    //     })
-                    //     newItemm.getComponent(ItemGallery).select.active = true
+                                    Mobile.ins.character.getComponent(Doll).listSkeleton.forEach((skeleton, index) => {
+                                        if (skeleton) {
+                                            skeleton.skeletonData.skeletonJson.slots.forEach(slot => {
+                                                if (slot.name != ContantSpines.body && index != category.body) {
+                                                    skeleton.setAttachment(slot.name, null)
+                                                }
+                                            })
+                                            if (index != category.body)
+                                                skeleton.setAttachment("blank", "blank")
+                                        }
 
-                    //     console.log("check")
+                                    })
 
-                    //     Web.ins.character.getComponent(Doll).listSkeleton.forEach(skeleton => {
-                    //         skeleton._skeleton.slots.forEach(slot => {
-                    //             if (slot.data.name != ContantSpines.body) {
-                    //                 skeleton.setAttachment(slot.data.name, "undefined")
-                    //             }
-                    //         })
-                    //         skeleton.setAttachment("blank", "blank")
-
-                    //     })
-                    //     list[i].forEach((slot, index) => {
-                    //         slot.forEach(item => {
-                    //             Tools.setSpineSave(Web.ins.character.getComponent(Doll).listSkeleton[index], item.nameSlot, item.nameItem, item.color)
-                    //         })
-
-                    //     })
-
-                    //     Web.ins.saveProcess()
-                    // }
-
-                    if (Mobile.ins) {
-                        Mobile.ins.offZoomItem()
-                        Mobile.ins.indexEdit = i
-                        this.listGallery.content.children.forEach(child => {
-                            child.getComponent(ItemGallery).select.active = false
-                        })
-                        newItemm.getComponent(ItemGallery).select.active = true
-
-                        Mobile.ins.character.getComponent(Doll).listSkeleton.forEach((skeleton, index) => {
-                            skeleton.skeletonData.skeletonJson.slots.forEach(slot => {
-                                if (slot.name != ContantSpines.body) {
-                                    skeleton.setAttachment(slot.name, null)
-                                }
-                            })
-                            if (index != category.body)
-                                skeleton.setAttachment("blank", "blank")
-
-                        })
-                        list[i].forEach((slot, index) => {
-                            slot.forEach(item => {
-                                Tools.setSpineSave(Mobile.ins.character.getComponent(Doll).listSkeleton[index], item.nameSlot, item.nameItem, item.color)
-                            })
-
-                        })
-                    }
-                }, () => {
-                    AudioController.instance.playDeleteSound()
-                    // if (Web.ins) {
-                    //     Web.ins.offZoomItem()
-                    //     list.splice(i, 1)
-                    //     if (Web.ins.indexEdit == i) {
-                    //         Web.ins.indexEdit = -1
-                    //     }
-                    // }
-                    if (Mobile.ins) {
-                        Mobile.ins.offZoomItem()
-                        list.splice(i, 1)
-                        if (Mobile.ins.indexEdit == i) {
-                            Mobile.ins.indexEdit = -1
-                        }
-                    }
-                    Tools.saveDataStorage("photos", list)
-                    this.setUpGallery()
-                },
-                    () => {
-                        let that = Mobile.ins
-                        // if (Web.ins) {
-                        //     that = Web.ins
-                        // }
-                        // else {
-                        //     that = Mobile.ins
-                        // }
-                        if (this.isPhoto == false) {
-                            this.isPhoto = true
-                            that.bgShare.destroyAllChildren()
-                            let newDoll = cc.instantiate(StaticData.doll)
-                            that.bgShare.addChild(newDoll)
-                            newDoll.getChildByName("body").setScale(new cc.Vec3(1.4, 1.4, 1))
-                            newDoll.getChildByName("body").setPosition(new cc.Vec3(0, 300, 0))
-                            // if (Web.ins) {
-                            //     newDoll.getChildByName("body").setScale(new Vec3(1.2, 1.2, 1))
-                            // }
-                            // else {
-                            //     newDoll.getChildByName("body").setScale(new Vec3(1.4, 1.4, 1))
-                            //     newDoll.getChildByName("body").setPosition(new Vec3(0, 300, 0))
-                            // }
-                            list[i].forEach((slot, index) => {
-                                slot.forEach(item => {
-                                    Tools.setSpineSave(newDoll.getComponent(Doll).listSkeleton[index], item.nameSlot, item.nameItem, item.color)
-                                })
-
-                            })
-
-
-                            let isLoadBg = false
-                            Tools.LoadSpriteFrameFromPatch(`/texture/bg/bg (2)`, (err, spriteFrame) => {
-                                that.bgShare.getComponent(cc.Sprite).spriteFrame = spriteFrame
-                                isLoadBg = true
-                            })
-
-                            let wait = () => {
-                                if (isLoadBg == true) {
-                                    FbSdk.getInstance().Share(Tools.takePhoto(that.bgShare, that.nodeTest.getContentSize().height), "Play full game: " + "https://dressupgirl.online/", () => {
+                                    list[i].forEach((slot, index) => {
+                                        if (slot.length > 0 && index != category.body) {
+                                            let category = cc.instantiate(StaticData.listPrefabItemDoll[index])
+                                            Mobile.ins.character.getChildByName("body").addChild(category)
+                                            category.zIndex = index
+                                            Mobile.ins.character.getComponent(Doll).listSkeleton[index] = category.getComponent(sp.Skeleton)
+                                            slot.forEach(item => {
+                                                Tools.setSpineSave(Mobile.ins.character.getComponent(Doll).listSkeleton[index], item.nameSlot, item.nameItem, item.color)
+                                            })
+                                        }
+                                        
 
                                     })
                                 }
-                                else {
-                                    this.scheduleOnce(() => {
-                                        wait()
-                                    }, 0.1)
+                            }, () => {
+                                AudioController.instance.playDeleteSound()
+                                if (Mobile.ins) {
+                                    Mobile.ins.offZoomItem()
+                                    list.splice(i, 1)
+                                    if (Mobile.ins.indexEdit == i) {
+                                        Mobile.ins.indexEdit = -1
+                                    }
                                 }
-                            }
+                                Tools.saveDataStorage("photos", list)
+                                this.setUpGallery()
+                            },
+                                () => {
+                                    let that = Mobile.ins
+                                    if (this.isPhoto == false) {
+                                        this.isPhoto = true
+                                        that.bgShare.destroyAllChildren()
+                                        let newDoll = cc.instantiate(StaticData.doll)
+                                        that.bgShare.addChild(newDoll)
+                                        newDoll.getChildByName("body").setScale(new cc.Vec3(1.4, 1.4, 1))
+                                        newDoll.getChildByName("body").setPosition(new cc.Vec3(0, 300, 0))
+                                        list[i].forEach((slot, index) => {
+                                            if (slot.length > 0 && index != category.body) {
+                                                let category = cc.instantiate(StaticData.listPrefabItemDoll[index])
+                                                newDoll.getChildByName("body").addChild(category)
+                                                category.zIndex = index
+                                                newDoll.getComponent(Doll).listSkeleton[index] = category.getComponent(sp.Skeleton)
+                                                slot.forEach(item => {
+                                                    Tools.setSpineSave(newDoll.getComponent(Doll).listSkeleton[index], item.nameSlot, item.nameItem, item.color)
+                                                })
+                                            }
+                                            
+    
+                                        })
 
-                            wait()
+
+                                        let isLoadBg = false
+                                        Tools.LoadSpriteFrameFromPatch(`/texture/bg/bg (2)`, (err, spriteFrame) => {
+                                            that.bgShare.getComponent(cc.Sprite).spriteFrame = spriteFrame
+                                            isLoadBg = true
+                                        })
+
+                                        let wait = () => {
+                                            if (isLoadBg == true) {
+                                                FbSdk.getInstance().Share(Tools.takePhoto(that.bgShare, that.nodeTest.getContentSize().height), "Play full game: " + "https://dressupgirl.online/", () => {
+
+                                                })
+                                            }
+                                            else {
+                                                this.scheduleOnce(() => {
+                                                    wait()
+                                                }, 0.1)
+                                            }
+                                        }
+
+                                        wait()
+                                    }
+                                })
                         }
-                    })
+                        else {
+                            this.scheduleOnce(() => {
+                                callback()
+                            }, 0.1)
+                        }
+                    }
+
+
+                    callback()
+
+                }
+
+
+
 
             }
             else {
                 let newItemm
-                // if (Web.ins) {
-                //     newItemm = instantiate(StaticData.itemGallery)
-                //     this.listGallery.content.addChild(newItemm)
 
-                // }
                 if (Mobile.ins) {
                     newItemm = cc.instantiate(this.itemGallery)
+                    newItemm.getComponent(ItemGallery).loading.active = false
 
                 }
 
@@ -288,11 +256,11 @@ export default class Gallery extends cc.Component {
     update() {
         this.node.setContentSize(Tools.getSizeWindow(1080, 1920))
         this.optimizeScrollView(this.listGallery)
-        if(StaticData.timeLockImage > 0){
+        if (StaticData.timeLockImage > 0) {
             this.lockNode.active = true
             this.timeCountDown.string = StaticData.timeLockImage + "s"
         }
-        else{
+        else {
             this.lockNode.active = false
         }
     }
@@ -329,7 +297,7 @@ export default class Gallery extends cc.Component {
     }
 
     btnSendToChat() {
-        if(StaticData.timeLockImage == 0){
+        if (StaticData.timeLockImage == 0) {
             Context.getInstance().setTimeLockImage(30)
             SocketRun.getInstance().send(ContantEventName.client_create_chat_message,
                 {
@@ -342,11 +310,11 @@ export default class Gallery extends cc.Component {
         else {
             this.notifyLockImage.active = true
             this.timeBlock.string = StaticData.timeLockImage + "s"
-            this.scheduleOnce(()=>{
+            this.scheduleOnce(() => {
                 this.notifyLockImage.active = false
             }, 1)
         }
-        
+
 
     }
 

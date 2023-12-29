@@ -10,7 +10,7 @@ import ColorPicker from "./ColorPicker";
 import Config from "./Config";
 import ContantSpines from "./ContantSpines";
 import Context from "./Context";
-import { Native } from "./Enum";
+import { Native, category } from "./Enum";
 import StaticData from "./StaticData";
 
 const { ccclass, property } = cc._decorator;
@@ -165,7 +165,7 @@ export default class Tools extends cc.Component {
         }
 
 
-        
+
         skeleton.setAttachment(slotName, itemName)
     }
 
@@ -175,10 +175,16 @@ export default class Tools extends cc.Component {
         newDoll.getChildByName("body").setScale(new cc.Vec3(scale, scale, 1))
         newDoll.getComponent(cc.Button).enabled = false
         data.forEach((slot, index) => {
-            slot.forEach(item => {
-                Tools.setSpineSave(newDoll.getComponent(Doll).listSkeleton[index], item.nameSlot, item.nameItem, item.color)
-            })
-
+            console.log(slot, index)
+            if (slot.length > 0 && index != category.body) {
+                let category = cc.instantiate(StaticData.listPrefabItemDoll[index])
+                newDoll.getChildByName("body").addChild(category)
+                category.zIndex = index
+                newDoll.getComponent(Doll).listSkeleton[index] = category.getComponent(sp.Skeleton)
+                slot.forEach(item => {
+                    Tools.setSpineSave(newDoll.getComponent(Doll).listSkeleton[index], item.nameSlot, item.nameItem, item.color)
+                })
+            }
         })
     }
 
@@ -198,26 +204,31 @@ export default class Tools extends cc.Component {
 
     public static saveDoll(doll: Doll) {
         let listSkeleton = []
+        console.log(doll.listSkeleton)
         doll.listSkeleton.forEach((skeleton: sp.Skeleton) => {
 
             let listSlots: Object[] = []
-            for (let i = 0; i < skeleton.skeletonData.skeletonJson.slots.length; i++) {
-                let nameItem
+            if (skeleton) {
+                for (let i = 0; i < skeleton.skeletonData.skeletonJson.slots.length; i++) {
+                    let nameItem
 
-                let slots = skeleton.skeletonData.skeletonJson.slots[i]
-                if (skeleton.findSlot(slots.name).getAttachment()) {
-                    nameItem = skeleton.findSlot(slots.name).getAttachment().name
-                    let color = { r: skeleton.findSlot(slots.name).color.r * 255, g: skeleton.findSlot(slots.name).color.g * 255, b: skeleton.findSlot(slots.name).color.b * 255, a: skeleton.findSlot(slots.name).color.a * 255 }
-                    let slot = {
-                        nameSlot: slots.name,
-                        nameItem: nameItem,
-                        color: color
+                    let slots = skeleton.skeletonData.skeletonJson.slots[i]
+                    if (skeleton.findSlot(slots.name).getAttachment()) {
+                        nameItem = skeleton.findSlot(slots.name).getAttachment().name
+                        let color = { r: skeleton.findSlot(slots.name).color.r * 255, g: skeleton.findSlot(slots.name).color.g * 255, b: skeleton.findSlot(slots.name).color.b * 255, a: skeleton.findSlot(slots.name).color.a * 255 }
+                        let slot = {
+                            nameSlot: slots.name,
+                            nameItem: nameItem,
+                            color: color
 
 
+                        }
+                        listSlots.push(slot)
                     }
-                    listSlots.push(slot)
                 }
+
             }
+
             listSkeleton.push(listSlots)
         })
         console.log(listSkeleton)

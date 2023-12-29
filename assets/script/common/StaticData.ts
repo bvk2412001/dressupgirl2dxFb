@@ -7,7 +7,7 @@
 
 import WaittingInSence from "../WaitingInsence";
 
-const {ccclass, property} = cc._decorator;
+const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class StaticData extends cc.Component {
@@ -30,11 +30,7 @@ export default class StaticData extends cc.Component {
 
     public static timeLockImage = 0
 
-    setTimeLockImage(timeLockImage: number){
-        setTimeout(()=>{
+    public static listPrefabItemDoll: Array<cc.Prefab> = new Array<cc.Prefab>(20)
 
-        }, timeLockImage * 1000)
-    }
 
-    
 }

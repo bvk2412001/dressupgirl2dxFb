@@ -8,14 +8,18 @@ export default class Doll extends cc.Component {
     @property(cc.Node)
     avatar: cc.Node
 
+    @property(cc.Node)
+    zoom: cc.Node
+
     
     start() {
-        
+       
     }
 
 
     update(deltaTime: number) {
-        
+        this.listSkeleton[2].node.zIndex = 2
+        this.zoom.zIndex = 21
     }
 
     zoomOut() {

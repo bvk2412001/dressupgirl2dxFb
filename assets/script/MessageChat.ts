@@ -43,6 +43,9 @@ export default class MessageChat extends cc.Component {
     @property(cc.Node)
     commingSoon: cc.Node
 
+    @property(cc.Node)
+    loading: cc.Node
+
 
     isEdit
     type
@@ -111,7 +114,7 @@ export default class MessageChat extends cc.Component {
     }
 
     btnChat(){
-        fireBase.instance.LogEvent("btnchatMessage" + Config.keyFirebase)
+        fireBase.instance.LogEvent("btnschatMessage" + Config.keyFirebase)
         this.commingSoon.active = true
         this.scheduleOnce(()=>{
             this.commingSoon.active = false

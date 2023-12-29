@@ -150,7 +150,7 @@ export default class Mobile extends cc.Component {
     }
 
     protected onLoad(): void {
-
+        Context.getInstance().loadItemDoll()
         this.scheduleOnce(() => {
             fireBase.instance.LogEvent("Play game 5s" + Config.keyFirebase)
         }, 5)
@@ -179,7 +179,7 @@ export default class Mobile extends cc.Component {
             this.btnEffect()
         }
 
-        
+
         this.subscribeButton.active = false;
         FbSdk.getInstance().checkCanSubscribeBot((canSubscribe) => {
             console.log('Can subscribe bot', canSubscribe);
@@ -354,16 +354,16 @@ export default class Mobile extends cc.Component {
     }
     indexEdit = -1
     showListItemButton(index, args = null) {
-        if (this.indexSelect == index && args == null) return
         if (this.iSelect == false) {
             this.iSelect = true
             this.loading.active = true
             this.listColorHair.node.parent.active = false
             this.listItemButton.content.destroyAllChildren()
-            this.indexSelect = index
+            
 
             switch (index) {
-                case category.body:
+                case 0:
+                    this.indexSelect = category.body
                     this.loading.active = false
                     this.iSelect = false
                     for (let i = 0; i < ColorPicker.SKIN_COLOR_LIST.length; i++) {
@@ -371,23 +371,28 @@ export default class Mobile extends cc.Component {
                     }
                     break
 
-                case category.eyebrow:
+                case 1:
+                    this.indexSelect = category.eyebrow
                     this.loadAtlas("eyebrow", category.eyebrow, ContantSpines.eyebrow)
                     break
 
-                case category.eye:
+                case 2:
+                    this.indexSelect = category.eye
                     this.loadAtlas("eye", category.eye, ContantSpines.eye)
                     break
 
-                case category.mouth:
+                case 3:
+                    this.indexSelect = category.mouth
                     this.loadAtlas("mouth", category.mouth, ContantSpines.mouth)
                     break
 
-                case category.faceasset:
+                case 4:
+                    this.indexSelect = category.faceasset
                     this.loadAtlas("faceasset", category.faceasset, ContantSpines.faceasset)
                     break
 
-                case category.hairfront:
+                case 5:
+                    this.indexSelect = category.hairfront
                     if (this.frontHair == "") {
                         this.listColorHair.node.parent.active = false
                     }
@@ -397,7 +402,8 @@ export default class Mobile extends cc.Component {
                     this.loadAtlas("hairfront", category.hairfront, ContantSpines.hairfront)
                     break
 
-                case category.hairback:
+                case 6:
+                    this.indexSelect = category.hairback
                     if (this.backHair == "") {
                         this.listColorHair.node.parent.active = false
                     }
@@ -407,7 +413,8 @@ export default class Mobile extends cc.Component {
                     this.loadAtlas("hairback", category.hairback, ContantSpines.hairback)
                     break
 
-                case category.hairside:
+                case 7:
+                    this.indexSelect = category.hairside
                     if (this.sideHair == "") {
                         this.listColorHair.node.parent.active = false
                     }
@@ -417,59 +424,73 @@ export default class Mobile extends cc.Component {
                     this.loadAtlas("hairside", category.hairside, ContantSpines.hairside)
                     break
 
-                case category.clothestop:
+                case 8:
+                    this.indexSelect = category.clothestop
                     this.loadAtlas("clothestop", category.clothestop, ContantSpines.clothestop)
                     break
 
-                case category.dress:
+                case 9:
+                    this.indexSelect = category.dress
                     this.loadAtlas("dress", category.dress, ContantSpines.dress)
                     break
 
-                case category.clotheslow:
+                case 10:
+                    this.indexSelect = category.clotheslow
                     this.loadAtlas("clotheslow", category.clotheslow, ContantSpines.clotheslow)
                     break
 
-                case category.coat:
+                case 11:
+                    this.indexSelect = category.coat
                     this.loadAtlas("coat", category.coat, ContantSpines.coat)
                     break
 
-                case category.sock:
+                case 12:
+                    this.indexSelect = category.sock
                     this.loadAtlas("sock", category.sock, ContantSpines.sock)
                     break
 
-                case category.shoe:
+                case 13:
+                    this.indexSelect = category.shoe
                     this.loadAtlas("shoe", category.shoe, ContantSpines.shoe)
                     break
 
-                case category.neckasset:
+                case 14:
+                    this.indexSelect = category.neckasset
                     this.loadAtlas("neckasset", category.neckasset, ContantSpines.neckasset)
                     break
 
-                case category.earing:
+                case 15:
+                    this.indexSelect = category.earing
                     this.loadAtlas("earing", category.earing, ContantSpines.earing)
                     break
 
-                case category.bag:
+                case 16:
+                    this.indexSelect = category.bag
                     this.loadAtlas("bag", category.bag, ContantSpines.bag)
                     break
 
-                case category.headasset:
+                case 17:
+                    this.indexSelect = category.headasset
                     this.loadAtlas("headasset", category.headasset, ContantSpines.headasset)
                     break
 
-                case category.glasses:
+                case 18:
+                    this.indexSelect = category.glasses
                     this.loadAtlas("glasses", category.glasses, ContantSpines.glasses)
                     break
 
-                case category.wing:
+                case 19:
+                    this.indexSelect = category.wing
                     this.loadAtlas("wing", category.wing, ContantSpines.wing)
                     break
 
-                case category.key:
-                    this.loadAtlas("key", category.key, "key")
+                case 20:
+                    this.indexSelect = category.key
+                    this.loadAtlasItemInsence("key", category.key, "key")
                     break
 
-                case category.bg:
+                case 21:
+                    this.indexSelect = category.bg
                     this.loading.active = false
                     this.iSelect = false
                     for (let i = 0; i < 47; i++) {
@@ -481,16 +502,19 @@ export default class Mobile extends cc.Component {
                     }
                     break
 
-                case category.bubble:
-                    this.loadAtlas("bubble", category.bubble, "")
+                case 22:
+                    this.indexSelect = category.bubble
+                    this.loadAtlasItemInsence("bubble", category.bubble, "")
                     break
 
-                case category.pet:
-                    this.loadAtlas("pet", category.pet, "")
+                case 23:
+                    this.indexSelect = category.pet
+                    this.loadAtlasItemInsence("pet", category.pet, "")
                     break
 
-                case category.sticker:
-                    this.loadAtlas("sticker", category.sticker, "")
+                case 24:
+                    this.indexSelect = category.sticker
+                    this.loadAtlasItemInsence("sticker", category.sticker, "")
                     break
             }
         }
@@ -500,6 +524,39 @@ export default class Mobile extends cc.Component {
 
     loadAtlas(key, index, slot) {
         Tools.loadSpriteAtlasFromPath("atlas/buttonBellow/" + key, (spriteAtlas: cc.SpriteAtlas) => {
+            let callback = () => {
+                if (StaticData.listPrefabItemDoll[index]) {
+                    let category = cc.instantiate(StaticData.listPrefabItemDoll[index])
+                    this.character.getChildByName("body").addChild(category)
+                    category.zIndex = index
+                    this.character.getComponent(Doll).listSkeleton[index] = category.getComponent(sp.Skeleton)
+                    this.iSelect = false
+                    if (this.indexSelect == index) {
+                        this.loading.active = false
+                        this.createItemBlank()
+                        for (let i = 0; i < spriteAtlas.getSpriteFrames().length; i++) {
+                            this.createButtonBellow(i + 1, spriteAtlas.getSpriteFrames()[i], null, slot)
+                        }
+                    }
+                }
+                else {
+                    this.scheduleOnce(() => {
+                        callback()
+                    }, 0.1)
+                }
+            }
+
+            callback()
+
+
+        })
+
+
+    }
+
+
+    loadAtlasItemInsence(key, index, slot) {
+        Tools.loadSpriteAtlasFromPath("atlas/buttonBellow/" + key, (spriteAtlas: cc.SpriteAtlas) => {
             this.iSelect = false
             if (this.indexSelect == index) {
                 this.loading.active = false
@@ -508,9 +565,9 @@ export default class Mobile extends cc.Component {
                     this.createButtonBellow(i + 1, spriteAtlas.getSpriteFrames()[i], null, slot)
                 }
             }
+
+
         })
-
-
     }
 
     createButtonBellow(index, spriteFrame, color, type) {
@@ -523,7 +580,7 @@ export default class Mobile extends cc.Component {
                     this.btnThemeChristmas()
                 }
             }
-            if (this.indexSelect > 0 && this.indexSelect < 20) {
+            if (this.indexSelect != category.body && this.indexSelect < 20) {
                 if (this.indexSelect != category.hairback && this.indexSelect != category.hairfront && this.indexSelect != category.hairside) {
                     if (this.listNameItemSelect[this.indexSelect] == spriteFrame.name) {
                         this.listItemButton.content.children.forEach(element => {
@@ -638,7 +695,7 @@ export default class Mobile extends cc.Component {
                 })
             }
             if (this.indexSelect >= 20) {
-                if (this.indexSelect == 21) {
+                if (this.indexSelect == category.bg) {
                     newItem.getComponent(ItemButton).setupBg(spriteFrame, spriteFrame.name)
                     newItem.getComponent(ItemButton).setUpCallback(() => {
                         AudioController.getInstance().playButtonSound()
@@ -1319,7 +1376,7 @@ export default class Mobile extends cc.Component {
         this.gamePlay.getComponent(cc.Button).enabled = true
     }
 
-    btnEffect(){
+    btnEffect() {
         StaticData.waittingInsence.show()
         Tools.loadPrefab("prefab/effect", (err, prefab: cc.Prefab) => {
             StaticData.waittingInsence.hide()
@@ -1374,7 +1431,7 @@ export default class Mobile extends cc.Component {
                 this.particle.destroyAllChildren()
                 StaticData.waittingInsence.show()
                 Tools.loadPrefab("particle/spring", (err, prefab: cc.Prefab) => {
-                    
+
                     StaticData.waittingInsence.hide()
                     let sakura = cc.instantiate(prefab)
                     this.particle.addChild(sakura)

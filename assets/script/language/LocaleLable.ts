@@ -14,6 +14,6 @@ export default class LocaleLable extends cc.Component {
     }
 
     protected onDestroy(): void {
-        Language.getInstance().removeLable(this.id)
+        Language.getInstance().removeLable()
     }
 }
